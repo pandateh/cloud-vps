@@ -6,4 +6,4 @@ PORTDATA_DIR = "Data"
 
 os.mkdir(os.path.join(WORKING_DIR, PORTAPPS_DIR))
 os.mkdir(os.path.join(WORKING_DIR, PORTDATA_DIR))
-print("Installation Done."")
+print("Installation Done.")
