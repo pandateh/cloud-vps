@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from alist import PandaAlist
 from exiftool import PandaExiftool
 
 # ALIAS_INDICATOR_STR = "# Panda CLOUD_VPS Custom Aliases"
@@ -28,6 +29,8 @@ Path(os.path.join(WORKING_DIR, PORTDATA_DIR)).mkdir(parents=True, exist_ok=True)
 #     f.write("fi\n")
 
 PandaExiftool.startInstall()
+PandaAlist.startInstall()
+
 print("Installation Done.")
 
 # Reload the BASH at the end of installation
